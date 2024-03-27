@@ -1,0 +1,17 @@
+1
+
+C:\Program Files\mosquitto>mosquitto_sub -t 'test/topic'
+C:\Program Files\mosquitto>mosquitto_pub -t 'test/topic' -m 'hello'
+
+2
+
+C:\Program Files\mosquitto>mosquitto_sub -t 'test' -i 17
+C:\Program Files\mosquitto>mosquitto_pub -t 'test' -m 'hello'
+
+3
+
+C:\Program Files\mosquitto>mosquitto_sub -t "/test" -h 192.168.47.36 -p 1883 -i 11
+
+4
+mosquitto_sub -h "mqtt.by" -p 1883 -u PiroJOJO -P e4pjooso -t user/PiroJOJO/test
+mosquitto_pub -h "mqtt.by" -p 1883 -u PiroJOJO -P e4pjooso -t user/PiroJOJO/test -m 'hello'
