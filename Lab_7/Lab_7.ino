@@ -3,8 +3,8 @@
 #include <DHT.h>
 
 //WiFi
-const char *ssid = "Sonya";
-const char *password = "Dobi2003!";
+const char *ssid = "name";
+const char *password = "password";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
