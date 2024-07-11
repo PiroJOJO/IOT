@@ -10,10 +10,10 @@ PubSubClient client(espClient);
 
 //MQTT
 const char *mqtt_brocker = "mqtt.by";
-const char *topic_T = "/user/PiroJOJO/dht/temp";
-const char *topic_H = "/user/PiroJOJO/dht/hum";
-const char *mqtt_username = "PiroJOJO";
-const char *mqtt_password = "e4pjooso";
+const char *topic_T = "/user/mqtt_username/dht/temp";
+const char *topic_H = "/user/mqtt_username/dht/hum";
+const char *mqtt_username = "mqtt_username";
+const char *mqtt_password = "mqtt_password";
 const int mqtt_port = 1883;
 
 //DHT
