@@ -7,7 +7,7 @@
 #include <DHT.h>
 
 const char* ssid = "name";
-const char* password = "password!";
+const char* password = "password";
 
 
 #define DHTPIN 5     // Digital pin connected to the DHT sensor
