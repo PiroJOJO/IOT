@@ -6,8 +6,8 @@
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 
-const char* ssid = "Sonya";
-const char* password = "Dobi2003!";
+const char* ssid = "name";
+const char* password = "password!";
 
 
 #define DHTPIN 5     // Digital pin connected to the DHT sensor
